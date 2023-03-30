@@ -1,4 +1,8 @@
-
+.App{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

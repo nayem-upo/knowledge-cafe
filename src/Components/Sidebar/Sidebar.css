@@ -1,0 +1,28 @@
+.sidebar-main{
+    width: 280px;
+}
+.spent-time{
+    text-align: center;
+    padding: 5px;
+    color: #6047EC;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+}
+.bookmarks-tips-main{
+    margin: 20px auto;
+    background-color:  rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    height: 50%;
+}
+.bookmarks-tips{
+    width: 240px;
+    margin: 10px auto;   
+}
+.bookmarks-tips h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}

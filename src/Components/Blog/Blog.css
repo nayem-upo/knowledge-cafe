@@ -1,0 +1,37 @@
+.cover-img{
+    width: 400px;
+    height: 200px;
+}
+.user-date{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.user-date img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.read-time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.book-mark{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-main{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.blog-main hr{
+    margin-top: 10px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.small{
+    color: rgb(94, 24, 225);
+}
