@@ -4,7 +4,9 @@ import React from 'react';
 import Bookmark from "../Bookmark/Bookmark";
 
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+
+    
     return (
         <div className="sidebar-main">
             <div className="spent-time">
@@ -12,7 +14,7 @@ const Sidebar = () => {
             </div>
             <div className="bookmarks-tips-main">
                 <div className="bookmarks-tips">
-                    <h3>Bookmarked Blogs : {10}</h3>
+                    <h3>Bookmarked Blogs : {}</h3>
                     <Bookmark></Bookmark>
                 </div>
             </div>

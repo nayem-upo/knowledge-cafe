@@ -2,6 +2,10 @@
     width: 400px;
     height: 200px;
 }
+.name-date{
+    display: flex;
+    flex-direction: column;
+}
 .user-date{
     display: flex;
     gap: 10px;

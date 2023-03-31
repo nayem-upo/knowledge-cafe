@@ -1,0 +1,21 @@
+.bonus-main{
+    background-color:  rgba(17, 17, 17, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 58%;
+    margin: 10px auto;
+    height: 400px;
+}.title{
+    text-align: center;
+    margin: 10px;
+}
+.answers{
+    width: 650px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

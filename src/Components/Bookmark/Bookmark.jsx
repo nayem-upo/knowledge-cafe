@@ -1,14 +1,17 @@
 import "./Bookmark.css"
+import React, { useState } from 'react';
 
-import React from 'react';
 
 const Bookmark = () => {
-    return (
-        <div className="bokmark-compo">
-            <h5>Master Microsoft Power Platform and Become an In-Demand!</h5>
 
+    return (
+        <div>       
+            {
+                // arr.map(ar=> <h1>{}</h1> )
+            }
         </div>  
     );
 };
+{/* <h5  className="bokmark-compo">{tittle.tittle}</h5> */}
 
 export default Bookmark;
