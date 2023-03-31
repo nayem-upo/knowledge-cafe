@@ -6,10 +6,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
-// const Blog = (props) => {
-//     const {setCart, cart, time, setTime, blog} = props;
-//     const {id, authorname, tittle, coverimage, authorimage, readetime, publishdate, hash} = props.blog;
-//     const notify = () => toast("Wow so easy!");
+const Blog = (props) => {
+    const {setCart, cart, time, setTime, blog} = props;
+    const {id, authorname, tittle, coverimage, authorimage, readetime, publishdate, hash} = props.blog;
+    const notify = () => toast("You Have Already Bookmarked This Blog");
 
 
 
