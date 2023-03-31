@@ -38,9 +38,3 @@
         text-align: center;
     }
 }
-
-@media (min-width:321px) and (max-width:1040px){
-    .bonus-main{
-        width: 80%;
-    } 
-}
