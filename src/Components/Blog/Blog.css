@@ -7,8 +7,9 @@
     flex-direction: column;
 }
 .marks-as-read{
-    background-color: #535bf200;
+    background-color: #0a15ec00;
     border: 0px;
+    padding: 0px;
   }
 
 .user-date{

@@ -1,15 +1,39 @@
 import "./Blog.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
+const alert = 'You Have Already Bookmarked This Blog'
+const done = 'Bookmarked'
 
 const Blog = (props) => {
     const {setCart, cart, time, setTime, blog} = props;
     const {id, authorname, tittle, coverimage, authorimage, readetime, publishdate, hash} = props.blog;
-    const notify = () => toast("You Have Already Bookmarked This Blog");
+        const notify1 = (msg) => 
+        toast.error(msg, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+        });;
+        
+        const notify2 = (msg) => 
+        toast(msg, {
+            position: "bottom-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+        
 
 
 
@@ -21,9 +45,10 @@ const Blog = (props) => {
     const handleBookmark =()=>{
         const exist = cart.find((i)=> i.id == id)
         if(exist){
-            notify()    
+            notify1(alert)    
         }
         else{
+            notify2(done)
             setCart((priv)=>[...priv, props.blog])
 
         }
@@ -45,6 +70,7 @@ const Blog = (props) => {
                 <div className="read-time">
                     <h5>{readetime} min read </h5>
                     <FontAwesomeIcon onClick={handleBookmark} icon={faBookmark} />
+                    <ToastContainer/>
                 </div>
                 
             </div>
