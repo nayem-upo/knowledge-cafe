@@ -6,6 +6,11 @@
     display: flex;
     flex-direction: column;
 }
+.marks-as-read{
+    background-color: #535bf200;
+    border: 0px;
+  }
+
 .user-date{
     display: flex;
     gap: 10px;
