@@ -19,3 +19,28 @@
     border-radius: 10px;
     margin-bottom: 15px;
 }
+
+@media (max-width:620px)  { 
+    .bonus-main{
+        background: rgba(17, 17, 17, 0.05);
+        width: 95%;
+        text-align: center;
+        min-height: 600px;
+    }    
+    .answers{
+        width: 350px;
+        text-align: center;
+        margin: 10px auto;
+        margin-left: 10px;
+
+    }
+    .answers-main{
+        text-align: center;
+    }
+}
+
+@media (min-width:600px){
+    .bonus-main{
+        width: 80%;
+    } 
+}

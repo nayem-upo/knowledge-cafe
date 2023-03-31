@@ -1,6 +1,5 @@
 .sidebar-main{
     width: 280px;
-    
 }
 .spent-time{
     text-align: center;
@@ -22,9 +21,28 @@
 }
 .bookmarks-tips{
     width: 240px;
-    margin: 10px auto;   
+    margin: 10px auto;  
 }
 .bookmarks-tips h3{
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
+@media (max-width:620px)  { 
+    .sidebar-main{
+        width: 100%;
+        margin-bottom: 50px;
+    }        
+    .spent-time{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .bookmarks-tips-main{
+        width: 100%;
+        height: 85%;
+    }
+    .bookmarks-tips{
+        width: 92%;
+    }
+ }
